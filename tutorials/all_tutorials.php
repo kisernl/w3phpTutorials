@@ -1,7 +1,8 @@
 <h2>W3schools PHP tutorial</h2>
 <?php
 
-
+require("tutorials/superglobals.php");
+echo "<br>" . "<br>";
 require("tutorials/arrays.php");
 echo "<br>" . "<br>";
 require("tutorials/functions.php");
