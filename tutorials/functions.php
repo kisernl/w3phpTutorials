@@ -84,6 +84,19 @@ echo $a;
 
 echo "<br> <br>";
 
+// summynumbers in a while loop
+function sumMyNumbers1(...$x){
+    $n = 0;
+    $len = count($x);
+    $i = 0;
+    while ($i < $len){
+        $n += $x[$i];
+        $i++;
+    }
+    return $n;
+}
+
+
 // GARRISON - this one is a struggle too
 function myFamily($lastname, ...$firstname) {
     $txt = "";
