@@ -55,6 +55,8 @@ echo "2 + 4 = " . sum(2, 4);
 echo "<br> <br>";
 
 // GARRISON -- I don't understand what is happening in this function ("passing arguments by reference")
+// This is short hand for:
+// $num = add_five($num);
 function add_five(&$value) {
     $value += 5;
 }
